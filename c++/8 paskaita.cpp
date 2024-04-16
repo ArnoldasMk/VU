@@ -15,22 +15,32 @@
 // }
 
 
-void funkcija(int* masyvas, int dydis, int& min, int& max) {
+void funkcija(int* masyvas, int dydis, int& min, int& max) 
+{
     min = max = masyvas[0];
-    for (int i = 1; i < dydis; i++) {
-        if (masyvas[i] < min) min = masyvas[i];
-        if (masyvas[i] > max) max = masyvas[i];
+    for (int i = 1; i < dydis; i++) 
+    {
+        if (masyvas[i] < min) 
+        {
+            min = masyvas[i];
+        }
+        if (masyvas[i] > max) 
+        {
+            max = masyvas[i];
+        }
     }
 }
 
-int main() {
+int main() 
+{
     int n;
     std::cout << "1-20";
     std::cin >> n;
     int min, max;
     int* masyvas = new int[n];
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         masyvas[i] = rand() % 201 - 100;
     }
 
