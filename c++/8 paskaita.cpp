@@ -89,4 +89,6 @@ int main() {
     {
         std::cout << teigiami[i] << " ";
     }
+    std::cout << teigiami_n;
+
 }
