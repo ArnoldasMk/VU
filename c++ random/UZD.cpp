@@ -485,7 +485,7 @@
 // ?}
 // ?double function(int n, double x)
 // ?{
-// ?    return std::pow((-1), n) * (std::pow(x, 2 * n) / factorialas(2 * n));
+// ?    return rand() % (int)(2 * M_PI * 100) / 100.0 - M_PI;
 // ?}
 // ?double riba(double x, double e, double xn)
 // ?{

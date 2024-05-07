@@ -1,49 +1,81 @@
 #include <iostream>
 #include <string>
+#include <sstream>
+void skyryba(char inputas_eilute[])
+{
+    int taskas = 0;
+    int kablelis = 0;
 
-bool funkcija(char inputas_zodis)
-{
-    bool rastas = false;
-    int i = 0;
-    while (rastas == false)
+    for (int i = 0; inputas_eilute[i] != '\0'; i++)
     {
-        if (zodis[i] == 's')
+        if (inputas_eilute[i] == '.')
         {
-            if (zodis[i + 1] == '\0')
-            {
-                return true;
-            }
+            taskas++;
         }
-        i++;
-    }
-}
-int main()
-{
-    char inputas_eilute[30];
-    char inputas_zodis[10] = {};
-    int eilutes_index = 0;
-    int zodzio_index = 0;
-    bool baik = false;
-    std::cin.get(inputas_eilute, 29);
-    while (baik == false)
-    {
-        if (inputas_eilute[eilutes_index] != ' ' && inputas_eilute[eilutes_index] != '\0')
+        else if (inputas_eilute[i] == ',')
         {
-            inputas_zodis[zodzio_index] = inputas_eilute[eilutes_index];
-            zodzio_index++;
-            eilutes_index++;
+            kablelis++;
+        }
+    }
+
+    std::cout << "Tasku " << taskas << std::endl;
+    std::cout << "Kableliu " << kablelis << std::endl;
+}
+
+void funkcija2(char inputas_eilute[])
+{
+    char zodis[30];
+    int indexas = 0;
+    for (int i = 0; inputas_eilute[i] != '\0'; i++)
+    {
+        if (inputas_eilute[i] != ' ' && inputas_eilute[i] != ',' && inputas_eilute[i] != '.')
+        {
+            zodis[indexas++] = inputas_eilute[i];
         }
         else
         {
-            inputas_zodis[zodzio_index] = '\0';
-            // std::cout << inputas_zodis << '\n';
-            std::cout << funkcija(zodis);
-            if (inputas_eilute[eilutes_index] == '\0')
+            if (indexas > 0 && zodis[indexas - 1] == 's')
             {
-                baik = true;
+                zodis[indexas] = '\0';
+                std::cout << zodis << std::endl;
             }
-            eilutes_index++;
-            zodzio_index = 0;
+            indexas = 0;
         }
     }
+    if (indexas > 0 && zodis[indexas - 1] == 's')
+    {
+        zodis[indexas] = '\0';
+        std::cout << zodis << std::endl;
+    }
+}
+
+int main()
+{
+    char inputas_eilute[30];
+    std::cin.get(inputas_eilute, 29);
+    skyryba(inputas_eilute);
+    funkcija2(inputas_eilute);
+
+    int kiekis = 0;
+    int did = 0;
+
+    std::istringstream inputas(inputas_eilute);
+    std::string zodis;
+
+    while (inputas >> zodis)
+    {
+        if (isdigit(zodis[0]))
+        {
+            int skaicius;
+            std::istringstream(zodis) >> skaicius;
+            kiekis++;
+            if (skaicius > did)
+            {
+                did = skaicius;
+            }
+        }
+    }
+
+    std::cout << "kiekis" << kiekis << std::endl;
+    std::cout << "Didziausias" << did << std::endl;
 }
