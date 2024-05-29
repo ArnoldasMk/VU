@@ -1,0 +1,3 @@
+studentas: Gabija
+	kursas - 3;
+	vidurkis - 10;
