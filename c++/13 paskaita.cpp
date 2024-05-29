@@ -1,7 +1,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-#include <cstdlib> // Įtraukite šią antraštę, kad galėtumėte naudoti rand() funkciją
+#include <cstdlib>
 
 class Studentas 
 {
