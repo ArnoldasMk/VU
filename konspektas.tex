@@ -1,0 +1,647 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[lithuanian]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Sistema ir jos mikroskopiniai ir makroskopiniai parametrai}
+\author{}
+\date{}
+\maketitle
+
+\tableofcontents
+
+\section{Sąvokos}
+
+\begin{itemize}
+    \item \textbf{Sistema} – erdvės dalis, kurią nagrinėjame kartu su ją apibūdinančiomis savybėmis.
+    \item \textbf{Mikroskopiniai parametrai} – molekulių ar atomų savybės, pvz., greičiai, padėtys.
+    \item \textbf{Makroskopiniai parametrai} – vidutinės savybės, kurios apibūdina visą sistemą, pvz., temperatūra, slėgis, tūris.
+    \item \textbf{Temperatūra} – fizikinis dydis, apibūdinantis šiluminę sistemos būseną.
+    \item \textbf{Šiluminis plėtimasis} – medžiagos ilgio ar tūrio pokytis dėl temperatūros pokyčio.
+    \item \textbf{Entropija} – termodinaminis dydis, nusakantis sistemos netvarką.
+    \item \textbf{Entalpija} – sistemos vidinės energijos ir darbinio tūrio energijos suma.
+    \item \textbf{Dujų konstanta ($R$)} – universali konstanta, naudojama dujų būsenos lygtims.
+    \item \textbf{Kinetinė energija} – energija, kurią turi judantis objektas.
+    \item \textbf{Linijinis plėtimasis} – kietosios medžiagos ilgio pokytis dėl temperatūros pokyčio.
+    \item \textbf{Šiluminis laidumas} – šilumos pernaša per medžiagą dėl temperatūros skirtumo.
+    \item \textbf{Adiabatinis procesas} – procesas, kurio metu nevyksta šilumos mainai su aplinka.
+    \item \textbf{Ciklinis procesas} – procesas, kurio metu sistema grįžta į pradinę būseną.
+    \item \textbf{Karno ciklas} – idealus termodinaminis ciklas su maksimalu našumu tarp dviejų temperatūrų.
+\end{itemize}
+
+\section{Sistema}
+
+Sistema – tai erdvės dalis, kurią nagrinėjame kartu su ją apibūdinančiomis savybėmis. Sistemos būseną apibūdina mikroskopiniai ir makroskopiniai parametrai.
+
+\subsection{Mikroskopiniai parametrai}
+Mikroskopiniai parametrai – tai molekulių ar atomų savybės (pvz., greičiai, padėtys). Šie parametrai detaliai aprašo kiekvienos dalelės būseną sistemoje ir yra labai svarbūs mikroskopinei termodinamikai.
+
+\subsection{Makroskopiniai parametrai}
+Makroskopiniai parametrai – tai vidutinės savybės, kurios apibūdina visą sistemą (pvz., temperatūra, slėgis, tūris). Šie parametrai yra labiau apčiuopiami ir naudojami kasdienėje praktikoje bei eksperimentuose.
+
+\section{Nulinis termodinamikos dėsnis}
+
+Nulinis termodinamikos dėsnis teigia, kad jei dvi sistemos yra šiluminėje pusiausvyroje su trečiąja sistema, tai jos yra šiluminėje pusiausvyroje ir tarpusavyje. Tai leidžia įvesti temperatūros sąvoką ir išmatuoti ją termometrais. Dėl šio dėsnio galima naudoti bet kurį objektą kaip temperatūros etaloną.
+
+\section{Temperatūros sąvoka ir matavimas}
+
+Temperatūra – tai fizikinis dydis, apibūdinantis šiluminę sistemos būseną. Temperatūra yra tiesiogiai susijusi su dalelių kinetine energija sistemoje.
+
+\subsection{Temperatūros matavimas}
+Temperatūros matavimas atliekamas naudojant termometrus, kurie pagrįsti įvairiais fizikiniais reiškiniais, pvz., skysčio išsiplėtimu, termopora, varžų pokyčiais ir pan. Kiekvienas matavimo metodas turi savo privalumus ir taikymo sritis.
+
+\subsection{Temperatūros skalės}
+
+Temperatūros skalės:
+\begin{itemize}
+    \item \textbf{Celsijaus (°C)}: naudojama kasdieniuose reikaluose, kurioje vandens užšalimo temperatūra yra 0°C, o virimo – 100°C.
+    \item \textbf{Kelvino (K)}: mokslinė skalė, kurioje absoliutus nulis (0 K) yra temperatūra, kurioje sustoja visi molekuliniai judesiai. Tai absoliuti temperatūros skalė, naudojama moksliniuose tyrimuose.
+    \item \textbf{Farenheito (°F)}: dažniausiai naudojama JAV, kur vandens užšalimo temperatūra yra 32°F, o virimo – 212°F.
+\end{itemize}
+
+\section{Šiluminis plėtimasis}
+
+\subsection{Linijinis plėtimasis}
+Linijinis plėtimasis – kietosios medžiagos ilgio pokytis dėl temperatūros pokyčio. Plėtimosi koeficientas $\alpha$ apibrėžiamas formule:
+\[
+\Delta L = \alpha L_0 \Delta T,
+\]
+kur $\Delta L$ – ilgio pokytis (m), $\alpha$ – linijinio plėtimosi koeficientas (1/K), $L_0$ – pradinė ilgis (m), $\Delta T$ – temperatūros pokytis (K).
+
+\subsection{Tūrinis plėtimasis}
+Tūrinis plėtimasis – kietosios, skystosios ar dujinės medžiagos tūrio pokytis dėl temperatūros pokyčio. Tai svarbu skysčių ir dujų atveju.
+
+\subsection{Bimetalinė plokštelė}
+Bimetalinė plokštelė – tai dviejų skirtingų metalų plokštelė, kuri išsilenkia dėl skirtingo šiluminio plėtimosi koeficiento. Ji naudojama temperatūros matavimo prietaisuose ir termostatuose.
+
+\subsection{Šiluminio plėtimosi priežastis}
+Šiluminio plėtimosi priežastis yra dalelių energijos padidėjimas ir jų tarpusavio atstumų pokytis, kai temperatūra kyla. Šiluma sukelia dalelių virpesių amplitudės padidėjimą, dėl ko didėja atstumai tarp jų.
+
+\subsection{Neigiamas šiluminio plėtimosi koeficientas}
+Kai kurių medžiagų, pvz., vandens tarp 0°C ir 4°C, tūris mažėja, kai temperatūra kyla. Tai vadinama neigiamu šiluminio plėtimosi koeficientu. Šis reiškinys yra retas ir turi svarbių praktinių pasekmių, pavyzdžiui, ledas plūduriuoja vandens paviršiuje.
+
+\section{Termodinaminė temperatūros skalė}
+
+Termodinaminė temperatūros skalė (Kelvino skalė) pagrįsta absoliutu nuliu ir naudojama moksliniuose tyrimuose. Ji yra nepriklausoma nuo medžiagos savybių ir apibrėžiama termodinaminiais principais.
+
+\section{Idealiųjų dujų pastovaus tūrio termometras}
+
+Pastovaus tūrio termometras naudoja dujų slėgį pastoviame tūryje temperatūrai matuoti. Slėgis proporcingas absoliučiai temperatūrai. Šio tipo termometrai yra labai tikslūs ir naudojami kalibravimo tikslais.
+
+\section{Trigubas taškas}
+
+Trigubas taškas – tai temperatūra ir slėgis, kuriame vienu metu egzistuoja trys medžiagos būsenos (kietoji, skystoji ir dujinė). Vandens trigubas taškas yra naudojamas kaip temperatūros etalonas.
+
+\section{Šiluma ir šilumos kiekis}
+
+Šiluma – tai energija, perduodama dėl temperatūrų skirtumo. Šiluma gali būti perduodama laidumu, konvekcija ar spinduliavimu.
+
+\subsection{Šilumos kiekis}
+Šilumos kiekis matuojamas kalorijomis arba džauliais. Šilumos kiekis yra proporcingas perduodamai energijai ir laiko trukmei.
+
+\subsection{Mechaninis šilumos ekvivalentas}
+Mechaninis šilumos ekvivalentas – tai mechaninės energijos kiekis, reikalingas gauti vieną šilumos vienetą. 1 kalorija = 4.184 džaulio. Tai atspindi energijos tvermės dėsnį ir transformacijos principus.
+
+\section{Šiluminė talpa, savitoji šiluma, molinė savitoji šiluma}
+
+\subsection{Šiluminė talpa}
+Šiluminė talpa – energijos kiekis, reikalingas norint pakeisti medžiagos temperatūrą 1°C. Tai svarbus termodinaminis dydis, nusakantis medžiagos gebėjimą kaupti šilumą.
+
+\subsection{Savitoji šiluma}
+Savitoji šiluma – energijos kiekis, reikalingas 1 kg medžiagos temperatūrai pakeisti 1°C. Skirtingos medžiagos turi skirtingą savitąją šilumą, priklausomai nuo jų molekulinės struktūros.
+
+\subsection{Molinė savitoji šiluma}
+Molinė savitoji šiluma – energijos kiekis, reikalingas 1 molio medžiagos temperatūrai pakeisti 1°C. Tai naudinga lyginant skirtingų medžiagų šilumines savybes.
+
+\section{Dulongo ir Pti dėsnis}
+
+Dulongo ir Pti dėsnis teigia, kad daugumos kietųjų elementų molinė savitoji šiluma yra maždaug 25 J/(mol·K). Tai yra empirinis dėsnis, kuris padėjo suprasti kietųjų medžiagų šilumines savybes.
+
+\section{Fazinis virsmas ir paslėptoji šiluma}
+
+\subsection{Fazinis virsmas}
+Fazinis virsmas – medžiagos būsenos pokytis (pvz., iš kietos į skystą). Tai vyksta tam tikroje temperatūroje, vadinamoje virsmo temperatūra.
+
+\subsection{Paslėptoji šiluma}
+Paslėptoji šiluma – energija, reikalinga faziniam virsmui, nekeičiant temperatūros. Ši šiluma naudojama dalelių tarpusavio sąveikoms įveikti.
+
+\section{Šilumos pernaša}
+
+\subsection{Šilumos laidumas}
+Šilumos laidumas – šilumos pernaša per medžiagą dėl temperatūros skirtumo. Tai vyksta kietose, skystose ir dujinėse medžiagose.
+
+\subsection{Šilumos srautas}
+Šilumos srautas – šilumos kiekis, perduodamas per tam tikrą paviršių per laiko vienetą. Tai svarbu inžineriniuose ir fiziniuose skaičiavimuose.
+
+\subsection{Šiluminio laidumo priežastis}
+Šiluminio laidumo priežastis yra molekulių energijos perdavimas. Kietose medžiagose tai vyksta per fononus, skysčiuose ir dujose – per molekulių judėjimą.
+
+\subsection{Šiluminė varža}
+Šiluminė varža – medžiagos gebėjimas priešintis šilumos srautui. Tai svarbus dydis statybos ir inžinerijos srityse, kur reikia užtikrinti izoliaciją.
+
+\section{Konvekcija}
+
+Konvekcija – šilumos pernaša skysčiuose ir dujose dėl jų judėjimo. Tai vyksta natūraliai arba gali būti priverstinė (pvz., naudojant ventiliatorius).
+
+\section{Šiluminis spinduliavimas}
+
+Šiluminis spinduliavimas – šilumos pernaša elektromagnetinėmis bangomis. Tai vienintelis būdas šilumai pereiti per vakuumą.
+
+\subsection{Štefano ir Bolcmano dėsnis}
+Štefano ir Bolcmano dėsnis teigia, kad išspinduliuotos energijos kiekis proporcingas ketvirtajam temperatūros laipsniui:
+\[
+P = \sigma T^4,
+\]
+kur $P$ – spinduliavimo galia (W/m\(^2\)), $\sigma$ – Štefano-Bolcmano konstanta ($5.67 \times 10^{-8}$ W/(m\(^2\)·K\(^4\))), $T$ – temperatūra (K).
+
+\subsection{Planko dėsnis}
+Planko dėsnis aprašo elektromagnetinę spinduliuotę juodojo kūno spinduliavimo spektre:
+\[
+I(\lambda, T) = \frac{2hc^2}{\lambda^5} \frac{1}{e^{\frac{hc}{\lambda k_B T}} - 1},
+\]
+kur $I(\lambda, T)$ – spinduliavimo intensyvumas (W·sr\(^{-1}\)·m\(^{-3}\)), $h$ – Planko konstanta ($6.626 \times 10^{-34}$ J·s), $c$ – šviesos greitis vakuume ($3 \times 10^8$ m/s), $\lambda$ – bangos ilgis (m), $k_B$ – Bolcmano konstanta ($1.381 \times 10^{-23}$ J/K), $T$ – temperatūra (K).
+
+\subsection{Vyno poslinkio dėsnis}
+Vyno poslinkio dėsnis teigia, kad spinduliavimo intensyvumo maksimumo bangos ilgis proporcingas kūno temperatūrai:
+\[
+\lambda_{\text{max}} T = b,
+\]
+kur $\lambda_{\text{max}}$ – bangos ilgis, kuriame spinduliavimas yra maksimalus (m), $T$ – temperatūra (K), $b$ – Vyno konstanta ($2.897 \times 10^{-3}$ m·K).
+
+\section{Šiluma ir darbas}
+
+Šiluma ir darbas yra energijos perdavimo formos. Šiluma perduodama dėl temperatūros skirtumo, darbas atliekamas jėgai veikiant per atstumą. Šios energijos formos gali virsti viena kita.
+
+\section{Termodinaminis procesas}
+
+Termodinaminis procesas – būsenos pokytis termodinaminėje sistemoje (pvz., izoterminis, izobarinis, izochorinis, adiabatinis procesai). Kiekvienas procesas turi savitas energijos ir šilumos mainų taisykles.
+
+\section{Pirmasis termodinamikos dėsnis}
+
+Pirmasis termodinamikos dėsnis teigia, kad energija negali būti nei sukurta, nei sunaikinta, tik transformuota iš vienos formos į kitą. Matematiškai: 
+\[
+\Delta U = Q - A,
+\]
+kur $\Delta U$ – vidinės energijos pokytis (J), $Q$ – šiluma (J), $A$ – darbas (J). Tai energijos tvermės dėsnis taikomas termodinaminėms sistemoms.
+
+\section{Entalpija}
+
+Entalpija ($H$) – sistemos vidinės energijos ir darbinio tūrio energijos suma: 
+\[
+H = U + pV,
+\]
+kur $H$ – entalpija (J), $U$ – vidinė energija (J), $p$ – slėgis (Pa), $V$ – tūris (m\(^3\)).
+
+\section{Avogadro dėsnis}
+
+Avogadro dėsnis teigia, kad vienodos dujų tūrio dalys, esant vienodoms sąlygoms (slėgiui, temperatūrai), turi tą patį molekulių skaičių. Tai svarbu nustatant molinių tūrių santykius ir mišinių savybes.
+
+\section{Tobulųjų dujų dėsnis}
+
+Tobulųjų dujų būsenos lygtis:
+\[
+pV = nRT,
+\]
+kur $p$ – slėgis (Pa), $V$ – tūris (m\(^3\)), $n$ – molių skaičius (mol), $R$ – dujų konstanta ($8.314$ J/(mol·K)), $T$ – temperatūra (K). Ši lygtis aprašo tobulųjų dujų elgseną ir yra pagrindas daugeliui termodinaminių skaičiavimų.
+
+\section{Daltono dėsnis}
+
+Daltono dėsnis teigia, kad mišinių bendras slėgis yra lygus visų sudedamųjų dalių dalinių slėgių sumai. Tai svarbu skaičiuojant dujų mišinių savybes.
+
+\section{Kinetinė idealiųjų dujų teorija}
+
+Kinetinė dujų teorija apibūdina dujų slėgį ir temperatūrą per molekulių judėjimą. Vidutinis molekulių judėjimo greitis ir energija yra tiesiogiai susiję su temperatūra. Ši teorija paaiškina dujų makroskopines savybes mikroskopinių dalelių elgsena.
+
+\section{Molekulių laisvės laipsniai}
+
+Molekulių laisvės laipsniai nusako nepriklausomų judėjimo būdų skaičių (pvz., translacinis, sukimosi, vibracinis judėjimas). Kiekvienas laisvės laipsnis prisideda prie molekulės energijos.
+
+\section{Energijos vienodo pasiskirstymo pagal laisvės laipsnius dėsnis}
+
+Šis dėsnis teigia, kad energija vienodai pasiskirsto tarp visų nepriklausomų laisvės laipsnių. Tai pagrindinis statistinės mechanikos principas.
+
+\section{Maksvelo greičių pasiskirstymas}
+
+Maksvelo pasiskirstymo dėsnis aprašo molekulių greičių pasiskirstymą idealiųjų dujų atveju. Greičiai pasiskirsto pagal Gauso pasiskirstymo kreivę. Tai svarbu suprantant dujų dinamines savybes.
+
+\section{Realiosios dujos}
+
+Realiųjų dujų elgsena aprašoma Van der Valso lygtimi, kuri įtraukia molekulių tarpusavio sąveiką ir jų užimamą tūrį:
+\[
+\left( p + \frac{a}{V^2} \right) (V - b) = RT,
+\]
+kur $p$ – slėgis (Pa), $V$ – tūris (m\(^3\)), $a$ – Van der Valso konstanta (Pa·m\(^6\)/mol\(^2\)), $b$ – Van der Valso tūrio korekcija (m\(^3\)/mol), $R$ – dujų konstanta ($8.314$ J/(mol·K)), $T$ – temperatūra (K). Ši lygtis geriau apibūdina realiųjų dujų elgseną nei tobulųjų dujų lygtis.
+
+\section{Džaulio ir Tomsono efektas}
+
+Džaulio ir Tomsono efektas aprašo temperatūros kitimą dujoms plečiantis per siaurą tarpą (droselį) adiabatiškai. Dujos gali atšalti arba įkaisti, priklausomai nuo pradinės temperatūros ir slėgio. Tai naudojama pramonėje, pvz., skystinant dujas.
+
+\section{Žemų temperatūrų gavimas}
+
+Žemų temperatūrų gavimo metodai:
+\begin{itemize}
+    \item Adiabatinis plėtimasis: dujų šaldymas jas adiabatiškai plečiant.
+    \item Džaulio ir Tomsono efektas: dujų droseliavimas, kuris sukelia jų temperatūros kitimą.
+    \item Kryogeninės technologijos: naudojant priešpriešinį šilumokaitą ir droseliavimą, pvz., Hampson–Linde ciklas.
+\end{itemize}
+
+\section{Grįžtamieji ir negrįžtamieji procesai}
+
+\subsection{Grįžtamasis procesas}
+Grįžtamasis procesas – procesas, kurį galima vykdyti abiem kryptimis be jokių pokyčių sistemoje ir aplinkoje.
+
+\subsection{Negrįžtamasis procesas}
+Negrįžtamasis procesas – procesas, kuris negali būti grąžintas į pradinę būseną be pokyčių aplinkoje.
+
+\subsection{Kvazipusiausvyrinis procesas}
+Kvazipusiausvyrinis procesas – procesas, vykstantis taip lėtai, kad sistema visuomet būna pusiausvyroje.
+
+\section{Šiluminė mašina}
+Šiluminė mašina – įrenginys, kuris paverčia šiluminę energiją į mechaninį darbą, naudojant šiluminį ciklą.
+
+\section{Ciklinis procesas}
+Ciklinis procesas – procesas, kurio metu sistema grįžta į pradinę būseną. Per vieną ciklą atliekamas tam tikras darbas ir pernešama šiluma.
+
+\section{Šiluminės mašinos darbas ir našumas}
+
+\subsection{Šiluminės mašinos darbas}
+Šiluminės mašinos darbas – skirtumas tarp į mašiną patekusios ir iš jos išėjusios šilumos.
+
+\subsection{Našumas}
+Našumas – išreikštas darbas padalytas iš į sistemą patekusios šilumos:
+\[
+\eta = \frac{W}{Q_{\text{in}}},
+\]
+kur $\eta$ – našumas (be matavimo vieneto), $W$ – darbas (J), $Q_{\text{in}}$ – į sistemą patekusios šilumos kiekis (J).
+
+\section{Šaldytuvas ir šilumos siurblys}
+
+\subsection{Šaldytuvas}
+Šaldytuvas – įrenginys, kuris pašalina šilumą iš šaldomos erdvės ir perduoda ją aplinkai.
+
+\subsection{Šilumos siurblys}
+Šilumos siurblys – įrenginys, kuris perkelia šilumą iš žemesnės temperatūros šaltinio į aukštesnės temperatūros šaltinį.
+
+\section{Karno teoremos. Karno ciklas, jo našumas}
+
+\subsection{Karno teoremos}
+Karno teoremos teigia, kad jokia kita šiluminė mašina negali būti efektyvesnė už Karno mašiną, veikiant tarp tų pačių dviejų temperatūrų.
+
+\subsection{Karno ciklas}
+Karno ciklas – idealus termodinaminis ciklas, kurio našumas priklauso tik nuo temperatūrų skirtumo:
+\[
+\eta = 1 - \frac{T_C}{T_H},
+\]
+kur $\eta$ – Karno ciklo našumas (be matavimo vieneto), $T_C$ – žemesnė temperatūra (K), $T_H$ – aukštesnė temperatūra (K).
+
+\section{Šiluminiai varikliai: Stirlingo ciklas, Oto ciklas, Dyzelio ciklas}
+
+\subsection{Stirlingo ciklas}
+Stirlingo ciklas – termodinaminis ciklas, naudojantis izoterminius ir izochorinius procesus.
+
+\subsection{Oto ciklas}
+Oto ciklas – ciklas, naudojamas benzino varikliuose, susideda iš adiabatinio suspaudimo, izochorinio degimo, adiabatinio plėtimosi ir izochorinio išmetimo.
+
+\subsection{Dyzelio ciklas}
+Dyzelio ciklas – panašus į Oto ciklą, bet degalai įpurškiami ir užsidega esant maksimaliam suspaudimui.
+
+\section{Antrasis termodinamikos dėsnis}
+
+\subsection{Kelvino ir Planko formuluotė}
+Kelvino ir Planko formuluotė – neįmanoma sukurti ciklinio proceso, kuris visiškai paverstų šilumą į darbą be papildomo efekto.
+
+\subsection{Klauzijaus formuluotė}
+Klauzijaus formuluotė – šiluma negali spontaniškai pereiti iš šaltesnio kūno į šiltesnį.
+
+\subsection{Karno formuluotė}
+Karno formuluotė – jokia šiluminė mašina negali būti efektyvesnė už Karno mašiną, veikiant tarp tų pačių dviejų temperatūrų.
+
+\section{Klauzijaus nelygybė}
+Klauzijaus nelygybė apibūdina entropijos pokyčius negrįžtamuose procesuose:
+\[
+\oint \frac{\delta Q}{T} \leq 0,
+\]
+kur $\delta Q$ – šilumos kiekis (J), $T$ – temperatūra (K).
+
+\section{Grįžtamųjų ir negrįžtamųjų procesų entropija}
+
+\subsection{Grįžtamųjų procesų entropija}
+Grįžtamųjų procesų entropija – entropijos pokytis lygus šilumos pokyčiui padalintam iš temperatūros:
+\[
+\Delta S = \frac{Q}{T},
+\]
+kur $\Delta S$ – entropijos pokytis (J/K), $Q$ – šilumos kiekis (J), $T$ – temperatūra (K).
+
+\subsection{Negrįžtamųjų procesų entropija}
+Negrįžtamųjų procesų entropija – entropija didėja:
+\[
+\Delta S > \frac{Q}{T},
+\]
+kur $\Delta S$ – entropijos pokytis (J/K), $Q$ – šilumos kiekis (J), $T$ – temperatūra (K).
+
+\section{Entropijos didėjimo dėsnis}
+Entropija uždarose sistemose gali tik didėti arba likti pastovi, ji niekada nemažėja.
+
+\section{Negrįžtamojo ciklo darbas}
+Darbas, atliktas per negrįžtamąjį ciklą, yra mažesnis nei per grįžtamąjį ciklą dėl entropijos augimo.
+
+\section{Dujų mišinio entropija}
+Dujų mišinio entropija priklauso nuo mišinio komponentų dalinių molių ir jų entropijos sumos.
+
+\section{Sistemos makrobūsena ir ją atitinkančios mikrobūsenos}
+
+\subsection{Makrobūsena}
+Makrobūsena – sistema apibūdinama makroskopiniais parametrais, tokiais kaip slėgis, tūris, temperatūra.
+
+\subsection{Mikrobūsenos}
+Mikrobūsenos – konkretūs atomų ir molekulių išsidėstymo būdai, atitinkantys makrobūseną.
+
+\section{Entropijos statistinė prasmė}
+Entropija statistinėje mechanikoje yra susijusi su mikrobūsenų skaičiumi:
+\[
+S = k_B \ln W,
+\]
+kur $S$ – entropija (J/K), $k_B$ – Bolcmano konstanta ($1.381 \times 10^{-23}$ J/K), $W$ – mikrobūsenų skaičius.
+
+\section{Trečiasis termodinamikos dėsnis (Nernsto teorema)}
+Trečiasis termodinamikos dėsnis teigia, kad sistemos entropija artėja prie nulio, kai temperatūra artėja prie absoliuto nulio.
+
+\section{Absoliuti entropija}
+Absoliuti entropija yra sistemos entropija absoliučiai nulinėje temperatūroje.
+
+\section{Tobulųjų dujų entropija}
+Tobulųjų dujų entropija priklauso nuo temperatūros ir tūrio:
+\[
+S = nC_V \ln T + nR \ln V,
+\]
+kur $S$ – entropija (J/K), $n$ – molių skaičius (mol), $C_V$ – molinė šiluminė talpa pastovaus tūrio sąlygomis (J/(mol·K)), $T$ – temperatūra (K), $R$ – dujų konstanta ($8.314$ J/(mol·K)), $V$ – tūris (m\(^3\)).
+
+\section{Šiluminė talpa arti absoliutaus nulio}
+Šiluminė talpa mažėja artėjant prie absoliutaus nulio ir pasiekia nulį 0 K temperatūroje.
+
+\section{Absoliutaus nulio temperatūros pasiekimas}
+Absoliutaus nulio pasiekimas yra neįmanomas per baigtinį procesų skaičių dėl trečiojo termodinamikos dėsnio.
+
+\section{Neigiama absoliutinė temperatūra}
+Neigiama absoliutinė temperatūra pasiekiama sistemose, kuriose energijos pasiskirstymas yra apverstas, pvz., lazeriuose.
+
+\section{Termodinaminiai potencialai}
+
+\subsection{Vidinė energija (U)}
+Vidinė energija (U) – visų sistemos energijų suma.
+
+\subsection{Entalpija (H)}
+Entalpija (H) – sistemos vidinė energija plius darbas, reikalingas išlaikyti tūrį prieš aplinkos slėgį:
+\[
+H = U + pV,
+\]
+kur $H$ – entalpija (J), $U$ – vidinė energija (J), $p$ – slėgis (Pa), $V$ – tūris (m\(^3\)).
+
+\subsection{Laisvoji (Helmholco) energija (F)}
+Laisvoji (Helmholco) energija (F) – energija, kuri gali būti paversta darbu esant pastoviai temperatūrai:
+\[
+F = U - TS,
+\]
+kur $F$ – laisvoji energija (J), $U$ – vidinė energija (J), $T$ – temperatūra (K), $S$ – entropija (J/K).
+
+\subsection{Gibbso potencialas (G)}
+Gibbso potencialas (G) – energija, kuri gali būti paversta darbu esant pastoviam slėgiui ir temperatūrai:
+\[
+G = H - TS,
+\]
+kur $G$ – Gibbso laisvoji energija (J), $H$ – entalpija (J), $T$ – temperatūra (K), $S$ – entropija (J/K).
+
+\section{Šių potencialų fizikinė prasmė}
+Termodinaminiai potencialai padeda suprasti, kiek energijos gali būti paversta darbu skirtingomis sąlygomis.
+
+\section{Sistemos termodinaminis stabilumas}
+Sistema yra termodinamiškai stabili, jei jos termodinaminiai potencialai mažiausi galimomis sąlygomis.
+
+\section{Le Šatelje ir Brauno taisyklė}
+Le Šatelje ir Brauno taisyklė teigia, kad sistema, veikiama išorinių pokyčių, stengiasi priešintis tiems pokyčiams.
+
+\section{Kanoninės medžiagos būsenos lygtys}
+Medžiagos būsenos lygtys aprašo termodinaminės sistemos parametrų tarpusavio priklausomybę.
+
+\section{Temperatūros, slėgio, tūrio, entropijos išreiškimas per termodinaminius potencialus}
+Šie parametrai gali būti išreikšti per vidinę energiją, entalpiją, laisvąją energiją ir Gibbso potencialą.
+
+\section{Maksvelo sąryšiai}
+Maksvelo sąryšiai yra lygtis, išreiškiančios išvestines termodinaminių potencialų pagal jų natūralius kintamuosius.
+
+\section{Tarpatominės ir tarpmolekulinės sąveikos jėgos}
+
+\subsection{Artiveikės stūmos jėgos}
+Artiveikės stūmos jėgos – atsiranda dėl Pauli draudimo principo.
+
+\subsection{Joninis ryšys}
+Joninis ryšys – susidaro, kai vienas atomas atiduoda elektroną kitam atomui.
+
+\subsection{Kovalentinis ryšys}
+Kovalentinis ryšys – susidaro, kai du atomai dalijasi elektronais.
+
+\subsection{Metališkasis ryšys}
+Metališkasis ryšys – elektronai yra delokalizuoti ir juda tarp daugelio atomų.
+
+\section{Tarpmolekulinės sąveikos}
+
+\subsection{Dipolinė sąveika}
+Dipolinė sąveika – molekulės su nuolatiniu dipoliu sąveikauja su kitomis dipolėmis molekulėmis.
+
+\subsection{Indukuotų dipolių sąveika (Londono)}
+Indukuotų dipolių sąveika (Londono) – laikini dipoliai sukuria traukos jėgas tarp molekulių.
+
+\subsection{Van der Valso jėgos}
+Van der Valso jėgos – silpnos sąveikos tarp molekulių, nesusijusios su cheminiais ryšiais.
+
+\section{Adhezija ir kohezija}
+
+\subsection{Adhezija}
+Adhezija – sąveika tarp skirtingų medžiagų paviršių.
+
+\subsection{Kohezija}
+Kohezija – sąveika tarp tos pačios medžiagos molekulių.
+
+\section{Paviršiaus įtemptis ir jos matavimas}
+Paviršiaus įtemptis – jėga, kuri veikia paviršiaus vienetui ir kuri sukelia paviršiaus trauką. Matavimas atliekamas kapilarių metodu arba lašų formavimu.
+
+\section{Paviršiaus energija}
+Paviršiaus energija – energija, reikalinga padidinti paviršiaus plotą.
+
+\section{Laplaso formulė}
+Laplaso formulė – apibūdina slėgį viduje kreivų paviršių, pvz., muilo burbulų:
+\[
+\Delta p = \frac{2\gamma}{r},
+\]
+kur $\Delta p$ – slėgio skirtumas (Pa), $\gamma$ – paviršiaus įtemptis (N/m), $r$ – kreivio spindulys (m).
+
+\section{Trijų terpių sandūra}
+Trijų terpių sandūra – taškas, kur susitinka trys skirtingos fazės, pvz., skysčio lašas ant kieto paviršiaus.
+
+\section{Skysčio paviršiaus drėkinimas}
+Skysčio paviršiaus drėkinimas – procesas, kai skystis pasklinda per kietą paviršių, suformuodamas drėkinimo kampą.
+
+\section{Kapiliariniai reiškiniai}
+Kapiliariniai reiškiniai – skysčio kilimas arba leidimasis siauruose vamzdeliuose dėl paviršiaus įtempimo.
+
+\section{Sočiųjų garų slėgis virš kreivo paviršiaus}
+Sočiųjų garų slėgis – slėgis, kuriame garų fazė yra pusiausvyroje su skysčio arba kietąja faze. Kreivų paviršių atveju jis yra didesnis nei plokščių paviršių.
+
+\section{Tirpalas ir tirpumas}
+
+\subsection{Tirpalas}
+Tirpalas – homogeniškas mišinys, kurio sudedamosios dalys yra tolygiai pasiskirsčiusios.
+
+\subsection{Tirpumas}
+Tirpumas – medžiagos gebėjimas ištirpti tirpiklyje.
+
+\section{Skysčių tirpumo fazinės diagramos}
+Fazinių diagramų pagalba galima nustatyti tirpumo ribas skirtingose temperatūrose ir slėgiuose.
+
+\section{Kietieji tirpalai}
+Kietieji tirpalai – kietosios fazės mišiniai, kuriuose viena medžiaga yra išsklaidyta kitoje.
+
+\section{Osmosas ir osmosinis slėgis}
+
+\subsection{Osmosas}
+Osmosas – tirpiklio difuzija per pusiau pralaidžią membraną iš mažesnės koncentracijos tirpalo į didesnės koncentracijos tirpalą.
+
+\subsection{Osmosinis slėgis}
+Osmosinis slėgis – slėgis, reikalingas sustabdyti osmosą.
+
+\section{Sočiųjų garų slėgis virš tirpalo}
+Sočiųjų garų slėgis virš tirpalo yra mažesnis nei virš gryno tirpiklio, nes tirpiosios medžiagos molekulės trukdo tirpikliui išgaruoti.
+
+\section{Tirpalo virimo ir užšalimo temperatūros}
+
+\subsection{Virimo temperatūros padidėjimas}
+Tirpalo virimo temperatūra yra aukštesnė nei gryno tirpiklio.
+
+\subsection{Užšalimo temperatūros sumažėjimas}
+Tirpalo užšalimo temperatūra yra žemesnė nei gryno tirpiklio.
+
+\section{Faziniai virsmai}
+
+\subsection{Medžiagos fazė}
+Medžiagos fazė – būsenos (kieta, skysta, dujinė), kuriose medžiaga gali egzistuoti.
+
+\subsection{Fazinis virsmas}
+Fazinis virsmas – perėjimas tarp skirtingų fazių.
+
+\section{Fazių pusiausvyros sąlyga}
+Fazių pusiausvyros sąlyga reikalauja, kad skirtingų fazių cheminiai potencialai būtų lygūs pusiausvyros sąlygomis.
+
+\section{Termodinaminis potencialas fazinio virsmo aplinkoje}
+Fazinio virsmo metu naudojami termodinaminiai potencialai (pvz., Gibbso potencialas) apibūdina energijos pokyčius.
+
+\section{Fazinė diagrama}
+Fazinė diagrama grafiškai rodo medžiagos būsenas esant skirtingiems temperatūroms ir slėgiams.
+
+\section{Klapeirono ir Klauzijaus lygtis}
+
+\subsection{Klapeirono lygtis}
+Klapeirono lygtis apibūdina fazinio virsmo slėgio ir temperatūros priklausomybę:
+\[
+\frac{dp}{dT} = \frac{\Delta S}{\Delta V},
+\]
+kur $\frac{dp}{dT}$ – slėgio pokytis esant temperatūros pokyčiui (Pa/K), $\Delta S$ – entropijos pokytis (J/K), $\Delta V$ – tūrio pokytis (m\(^3\)).
+
+\subsection{Klauzijaus lygtis}
+Klauzijaus lygtis yra speciali Klapeirono lygties forma, taikoma faziniams virsmams:
+\[
+\ln P = -\frac{\Delta H_{\text{vap}}}{R} \frac{1}{T} + C,
+\]
+kur $P$ – garų slėgis (Pa), $\Delta H_{\text{vap}}$ – garavimo entalpija (J/mol), $R$ – dujų konstanta ($8.314$ J/(mol·K)), $T$ – temperatūra (K), $C$ – konstanta.
+
+\section{Trigubas taškas}
+Trigubas taškas yra taškas fazinėje diagramoje, kur vienu metu egzistuoja trys fazės (kieta, skysta, dujinė).
+
+\section{Virsmų rūšys}
+Virsmų rūšys apima lydymąsi, garavimą, sublimaciją ir kondensaciją.
+
+\section{Termodinaminis potencialas ir jo išvestinės fazinio virsmo metu}
+Fazinio virsmo metu termodinaminio potencialo išvestinės (pvz., entropija, entalpija) apibūdina energijos ir kitų fizikinių savybių pokyčius.
+
+\section{Difuzija}
+
+Difuzija – tai medžiagos molekulių sklidimas tarp kitų molekulių dėl šiluminio judėjimo, siekiant sumažinti koncentracijų skirtumą. Sklidimas vyksta iš didelės koncentracijos srities į mažos koncentracijos sritį. Pavyzdžiui, jeigu dideliame kambaryje kampe pastatytume kvapo šaltinį (tarkim, atidarytą kvepalų buteliuką), kvapas ilgainiui pasklistų po visą kambarį dėl difuzijos.
+
+\subsection{I Fiko dėsnis}
+I Fiko dėsnis aprašo difuzijos srautą per koncentracijos gradientą:
+\[
+J = -D \frac{dn}{dx},
+\]
+kur $J$ – medžiagos srauto tankis (mol/(m\(^2\)·s)), $D$ – difuzijos koeficientas (m\(^2\)/s), $\frac{dn}{dx}$ – koncentracijos gradientas (mol/m\(^4\)).
+
+Dujose difuzijos koeficientas yra apibrėžiamas kaip:
+\[
+D = \frac{\langle v \rangle \langle l \rangle}{3},
+\]
+kur $\langle v \rangle$ – vidutinis molekulių greitis (m/s), $\langle l \rangle$ – vidutinis laisvasis kelias (m).
+
+\subsection{II Fiko dėsnis}
+II Fiko dėsnis, dar žinomas kaip difuzijos lygtis, apibūdina dalelių koncentracijos pokytį laikui bėgant:
+\[
+\frac{\partial n}{\partial t} = D \frac{\partial^2 n}{\partial x^2},
+\]
+kur $\frac{\partial n}{\partial t}$ – koncentracijos pokytis laikui bėgant (mol/(m\(^3\)·s)), $\frac{\partial^2 n}{\partial x^2}$ – koncentracijos antroji išvestinė pagal koordinatę (mol/(m\(^5\))).
+
+Jei dalelių koncentracija laikui bėgant nesikeičia ir nėra dalelių srauto, gauname stacionarinę būseną:
+\[
+\frac{\partial n}{\partial t} + \frac{\partial J}{\partial x} = 0,
+\]
+kur $\frac{\partial J}{\partial x}$ – srauto tankio gradientas (mol/(m\(^4\)·s)).
+
+Įstačius I Fiko dėsnį, gaunamas II Fiko dėsnis:
+\[
+\frac{\partial n}{\partial t} = D \Delta n,
+\]
+kur $\Delta$ yra Laplaso operatorius:
+\[
+\Delta = \nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2},
+\]
+kur $\nabla^2$ – Laplaso operatorius (1/m\(^2\)).
+
+\section{Kietieji kūnai ir kristalai}
+
+\subsection{Kietieji kūnai}
+Kietieji kūnai – medžiagos, kurios turi pastovų formą ir tūrį dėl stiprių tarpatominių ryšių.
+
+\subsection{Kristalai}
+Kristalai – kietosios medžiagos, kurių atomai yra tvarkingai išsidėstę pasikartojančiuose trimačiuose struktūrose, vadinamose kristalinėmis gardelėmis.
+
+\section{Jono spindulys}
+Jono spindulys – tai jonų dydis, kuris gali skirtis priklausomai nuo jono krūvio ir koordinacinio skaičiaus.
+
+\section{Koordinacinis skaičius}
+Koordinacinis skaičius – tai artimiausių kaimyninių atomų arba jonų skaičius aplink centrinį atomą arba joną kristalinėje gardelėje.
+
+\section{Kristalinė gardelė}
+Kristalinė gardelė – tai erdvinis atomų, jonų ar molekulių išsidėstymas kristale, pasikartojantis reguliariai.
+
+\section{Elementarusis narvelis}
+Elementarusis narvelis – mažiausia kristalinės gardelės dalis, kuri atspindi visą gardelės struktūrą.
+
+\section{Kristalų simetrija}
+Kristalų simetrija – tvarkos ir simetrijos elementų buvimas kristalinėje gardelėje.
+
+\section{Simetrijos elementai}
+Simetrijos elementai – ašys, plokštumos, taškai, pagal kuriuos kristalas yra simetriškas (pvz., sukimosi ašis, atspindžio plokštuma).
+
+\section{Kristalų simetrijos klasės ir gardelių tipai}
+
+\subsection{Kristalų simetrijos klasės}
+Kristalų simetrijos klasės – tai kristalų klasifikacija pagal jų simetrijos elementus.
+
+\subsection{Gardelių tipai}
+Gardelių tipai – kubinė, tetragonalė, ortorombinė, šešiakampė, trigonalė, monoklinė, triklinė.
+
+\section{Kristalų defektai}
+Kristalų defektai – netobulumai kristalinėje gardelėje, kurie gali būti taškiniai (pvz., vakancijos), linijiniai (pvz., dislokacijos), plokštuminiai (pvz., dvylinkos), tūriniai (pvz., poros, įtrūkimai).
+
+\end{document}
